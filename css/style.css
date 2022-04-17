@@ -556,6 +556,17 @@ ul{
 	grid-area: diseños-alquiler;
 }
 
+.carousel-item.active{
+	display: flex!important;
+	justify-content: space-evenly;
+
+}
+	.carousel-item.active img{
+		border-radius: 20px;
+		margin-bottom: 30px;
+		margin-top: 30px;
+	}
+
 
 @media (max-width: 992px) and (min-width:  768px){
 
