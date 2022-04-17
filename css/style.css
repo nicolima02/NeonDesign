@@ -541,12 +541,13 @@ ul{
 }
 
 .carrousel-alquiler{
-	width:90% ;
-	height: 50vh;
+	width:30% ;
+	height: fit-content!important;
 	border-radius: 30px;
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 0 0 25px violet;
+	margin-bottom: 30px!important;
 }
 
 .diseños-alquiler{
@@ -558,7 +559,8 @@ ul{
 
 .carousel-item.active{
 	display: flex!important;
-	justify-content: space-evenly;
+	flex-direction: column;
+	text-align: center;
 
 }
 	.carousel-item.active img{
@@ -566,6 +568,14 @@ ul{
 		margin-bottom: 30px;
 		margin-top: 30px;
 	}
+	.carousel-item.active p{
+		font-size: 1.5rem;
+	}
+
+.img-alquiler{
+	width: 90%;
+	margin: auto;
+}
 
 
 @media (max-width: 992px) and (min-width:  768px){
@@ -584,6 +594,10 @@ ul{
 }
 
 @media (max-width:  767px) and (min-width:  280px){
+	.carrousel-alquiler{
+		width: 90%;
+	}
+
 	.cont-tinfo{
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
