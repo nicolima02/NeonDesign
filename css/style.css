@@ -886,11 +886,12 @@ ul{
 			width: 99%;
 			margin-left: auto;
 			margin-right: auto;
-			height: 50vh;
+			height: 40vh;
 	}
 
 	.imagen{
-		height: 50vh;
+		height: 40vh;
 		width: 100%;
+
 	}
 }
