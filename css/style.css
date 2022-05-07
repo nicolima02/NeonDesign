@@ -572,16 +572,18 @@ ul{
 	justify-content: center;
 }
 
-.imagen-trabajo-lista{
-	transition: 1s;
-}
+@media (min-width: 768px){
+	.imagen-trabajo-lista{
+		transition: 1s;
+	}
 
-.imagen-trabajo-lista:hover{
-	cursor: pointer;
-	transform: scale(1.5);
-	transition: 1s;
-}
+	.imagen-trabajo-lista:hover{
+		cursor: pointer;
 
+		transform: scale(1.5);
+		transition: 1s;
+	}
+}
 
 @media (min-width: 1199px) and (max-width: 1400px){
 	.botonera{
